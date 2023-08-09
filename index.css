@@ -11,7 +11,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vw;
+    
 }
 
 header {
@@ -28,10 +28,15 @@ h1 {
     display: inline-block;
 }
 
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #link {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #link:hover {
     opacity: .5;
@@ -97,4 +102,192 @@ footer > p {
 .footer:hover {
     opacity: .5;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px){
+    
+    p {
+        font-size: 1.5em;
+    }
+
+    header > p {
+        font-size: 1em;
+    }
+
+    
+
+    section {
+        width: auto;
+    }
+
+    .secao-imagem {
+        background-position: center;
+    }
+
+    footer {
+        font-size: .8em;
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px){
+
+    p {
+        font-size: 1.2em;
+    }
+
+    header > p {
+        font-size: .8em;
+    }
+
+    
+
+    section {
+        min-width: 700px;
+    }
+
+    .secao-imagem {
+       background-position: center;
+      
+    }
+
+    footer {
+        
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer > p {
+        font-size: .7
+        em;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 415px){
+    header {
+       width: auto;
+    }
+
+    p{
+        font-size: 1em;
+    }
+   
+    header > p {
+        font-size: .7em;
+    }
+
+    section {
+      min-width: 415px;
+        
+    }
+
+    .secao-imagem {
+        background-position:center;
+       
+       
+     }
+ 
+     footer {
+         
+         
+         padding: 5px;
+         text-align: center;
+     }
+
+     footer > p {
+        font-size: .7em;
+     }
+ 
+
+
+
+    
+}
+
+@media screen and (max-width: 391px){
+    header {
+       width: auto;
+    }
+
+    p{
+        font-size: 1em;
+    }
+   
+    header > p {
+        font-size: .7em;
+    }
+
+    section {
+      min-width: 390px;
+        
+    }
+
+    .secao-imagem {
+        background-position:center;
+       
+       
+     }
+ 
+     footer {
+         
+         
+         padding: 5px;
+         text-align: center;
+     }
+
+     footer > p {
+        font-size: .7em;
+     }
+ 
+
+
+
+    
+}
+
+@media screen and (max-width: 376px){
+    header {
+       width: auto;
+    }
+
+    p{
+        font-size: 1em;
+    }
+   
+    header > p {
+        font-size: .7em;
+    }
+
+    section {
+      min-width: 375px;
+        
+    }
+
+    .secao-imagem {
+        background-position:center;
+       
+       
+     }
+ 
+     footer {
+         
+         
+         padding: 5px;
+         text-align: center;
+     }
+
+     footer > p {
+        font-size: .7em;
+     }
+ 
+
+
+
+    
 }
